@@ -1,0 +1,378 @@
+<!DOCTYPE html>              
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>Sinethemba Zulu's Portfolio</title>
+    <!-- My CSS Files -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./stylesheets/home.css" />
+    <link rel="stylesheet" href="./stylesheets/about.css" />
+    <link rel="stylesheet" href="./stylesheets/portfolio.css" />
+    <link rel="stylesheet" href="./stylesheets/contact.css" />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/76a522a414.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- External Script -->
+  <body>
+  
+
+    <!-- Navigation Bar  -->
+    <header>
+  
+        <nav id="top-navbar">
+        <div class="top-navbar-initials">
+          <p>SZ<span>.</span></p>
+        </div>
+        <div class="top-navbar-links-and-button">
+          <div>
+            <ul class="top-navbar-links">
+              <li class="top-navbar-link-home">Home</li>
+              <li class="top-navbar-link"><a href="#aboutPage">About</a></li>
+              <li class="top-navbar-link">
+                <a href="#portfolioPage">Portfolio</a>
+              </li>
+              <li class="top-navbar-link">
+                <a href="#contactPage">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="navbar-menu" onclick="toggleSideNavbar()">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Side Nav Bar  -->
+    <nav id="sideNavbar">
+      <div>
+        <ul class="sideNavbar-links">
+          <li class="sideNavbar-initials">ZULU <span>.</span></li>
+          <li class="sideNavbar-link"><a href="#homePage">Home</a></li>
+
+          <li class="sideNavbar-link"><a href="#aboutPage">About</a></li>
+
+          <li class="sideNavbar-link">
+            <a href="#portfolioPage">Portfolio</a>
+          </li>
+          <li class="sideNavbar-link"><a href="#contactPage">Contact</a></li>
+          <li class="sideNavbar-footer">
+            <li class="sideNavbar-footer-links">
+              <a href="https://github.com/Gracepinkie?tab=repositories" target="_blank" class="sideNavbar-footer-link"><i 
+                 class="fab fa-github"></i></a>
+              <a href="" target="_blank" class="sideNavbar-footer-link"><i 
+                 class="fab fa-codepen"></i></a>
+            </li>
+          <li><i class="far fa-copyright"> Coded by Sinethemba Zulu</i></li>
+          </li>
+        </ul>
+       </div>
+      
+      </div>
+    </nav>
+    <!-- Landing Page -->
+    <div id="homePage">
+      <div class="homePage-contents">
+        <div class="homePage-text">
+          <div class="homePage-headings">
+            <h1>Hello,</h1>
+            <h3 class="line anim-heading">I'm Sinethemba Zulu</h3>
+          </div>
+          <div class="homePage-description">
+            <p>Disciplined</p>
+            <i class="fab fa-slack"></i>
+            <p>Dedicated</p>
+            <i class="fab fa-slack"></i>
+            <p>Different</p>
+          </div>
+          <button class="homePage-btn">
+            <a href="#aboutPage">View More</a>
+          </button>
+        </div>
+        <div class="homePage-links">
+          <a href="https://github.com/Gracepinkie?tab=repositories" target="_blank" class="homePage-link"><i class="fab 
+             fa-github"></i></a>
+          <a href="" target="_blank" class="homePage-link"><i class="fab 
+             fa-codepen"></i></a>
+          <a href="" target="_blank" class="homePage-link"><i 
+             class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- About Me Page -->
+    <div id="aboutPage">
+      <div class="aboutPage-content">
+        <div class="aboutPage-img">
+          <img
+            src="./images/pinkett-removebg-preview.png"
+            alt="picture of Pinky
+          Zulu"
+            data-aos="zoom-in"
+          />
+        </div>
+        <div class="aboutPage-text">
+          <h2>About <span>Me</span>.</h2>
+          <div class="aboutPage-pText">
+            <div class="aboutPage-bio">
+              <p>
+                I am a dedicated and hardworking individual that is disciplined and determined to make 
+              </p>
+            </div>
+            <div class="aboutPage-inspo">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse accusantium quos quibusdam qua
+              </p>
+            </div>
+          </div>
+          <div class="aboutPage-icons">
+            <div class="aboutPage-iconInfo email">
+              <i class="fas fa-envelope envelope aboutPage-icon"></i>
+              <p class="aboutPage-icon-text">gracepinkie90@gmail.com</p>
+            </div>
+            <div class="aboutPage-iconInfo number">
+              <i class="fas fa-phone-alt aboutPage-icon phone "></i>
+              <p class="aboutPage-icon-text">(+27)0000000000</p>
+            </div>
+            <div class="aboutPage-iconInfo address" >
+              <i class="fas fa-map-marker-alt aboutPage-icon location"></i>
+              <p class="aboutPage-icon-text">Durban, South Africa</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+   </div> 
+<!-- Porfolio   -->
+    <div id="portfolioPage">
+      <h1 class="portfolioPage-heading">My <span>Portfolio</span>.</h1>
+      <div class="portfolioPage-cards-container">
+        <!-- First Card -->
+        <div class="portfolioPage-cards" data-aos="fade-down">
+            <img src="./images/projects.png" alt="A preview of my contact 
+             form">
+            <div class="portfolioPage-words">
+                <h3>CONTACT <span>FORM</span>.</h3>
+                <h4>HTML/CSS</h4>
+                <p>Below are the Live and Coding links to this project:</p>
+            </div>
+            <div class="portfolioPage-links">
+                <a href="" target="_blank">Live</a>        
+                <a href="" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <!-- Second Card  -->
+          <div class="portfolioPage-cards" data-aos="fade-down">
+            <img src="./images/projects.png" alt="A preview of my python project">
+            <div class="portfolioPage-words">
+                <h3>CONDITIONALS <span>TASK</span>.</h3>
+                <h4>PYTHON3</h4>
+                <p>Below are the Live and Coding links to this project:</p>
+            </div>
+            <div class="portfolioPage-links">
+                <a href="" 
+                 target="_blank">Live</a>        
+                <a href="" 
+                 target="_blank">GitHub</a>
+            </div>
+           </div>
+         
+        <!-- Third Card -->
+        <div class="portfolioPage-cards" data-aos="fade-down">
+        <img src="./images/projects.png"alt="A preview of my testimonials">
+        <div class="portfolioPage-words">
+            <h3>TESTIMONIAL <span>SLIDER</span>.</h3>
+            <h4>HTML/CSS</h4>
+            <p>Below are the Live and Coding links to this project:</p>
+        </div>
+        <div class="portfolioPage-links">
+            <a href="" target="_blank">Live</a>        
+            <a href="https://github.com/mikaylab12/slider.git" target="_blank">GitHub</a>
+        </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="portfolioPage-cards" data-aos="fade-down">
+          <img src="./images/projects.png" alt="A preview of my python 
+           project">
+          <div class="portfolioPage-words">
+              <h3>BMI <span>Calulator</span>.</h3>
+              <h4>PYTHON3</h4>
+              <p>Below are the Live and Coding links to this project:</p>
+          </div>
+          <div class="portfolioPage-links">
+              <a href=""   
+               target="_blank">Live</a>        
+              <a href="" target="_blank">GitHub</a>
+          </div>
+         </div>
+      </div>
+      </div>
+
+    <!-- Contact Form -->
+    <div id="contactPage">
+      
+        <form
+          class="contactPage-form"
+          action="https://formspree.io/f/mwkallnv"
+          method="POST"
+        >
+          <div>
+            <div class="contactPage-form-details">
+              <div>
+                <h1 class="contactPage-heading">Contact <span>Me</span>.</h1>
+              </div>
+              <!-- <h3 class="contactPage-form-heading">Lets Get In Touch</h3> -->
+            <div class="contactPage-info">
+              <div class="contactPage-contact-info">
+                <!-- Input for name -->
+                <div class="contactPage-group">
+                  <label class="contactPage-label" for="name"
+                    ><i class="far fa-user"></i
+                  ></label>
+                  <input
+                    class="contactPage-input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Full Name"
+                  />
+                </div>
+                <!-- Input for email -->
+                <div class="contactPage-group">
+                  <label class="contactPage-label" for="email"
+                    ><i class="far fa-envelope"></i
+                  ></label>
+                  <input
+                    class="contactPage-input"
+                    type="email"
+                    name="_replyto"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                </div>
+                <!-- Input for contact -->
+                <div class="contactPage-group">
+                  <label class="contactPage-label" for="contact"
+                    ><i class="fas fa-phone-alt"></i
+                  ></label>
+                  <input
+                    class="contactPage-input"
+                    type="tel"
+                    name="contact"
+                    id="contact"
+                    min="10"
+                    max="10"
+                    required
+                    placeholder="Contact Number"
+                  />
+                </div>
+              </div>
+              <div class="contactPage-contact-message">
+                <!-- Input for message -->
+                <div class="contactPage-group">
+                  <label class="contactPage-label" for="message"
+                    ><i class="far fa-sticky-note"></i
+                  ></label>
+                  <textarea
+                    class="contactPage-input"
+                    type="text"
+                    name="message"
+                    id="message"
+                    placeholder="Type your message here"
+                    style="width: 249px; height: 160px"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <button class="contactPage-button" type="submit">Submit</button>
+            </div>
+            <div class="contactPage-icons number">
+            <div class="contactPage-iconInfo" >
+              <i class="fas fa-phone-alt contactPage-icon phone "></i>
+              <p class="contactPage-icon-text">(+27)00000</p>
+            </div>
+            <div class="contactPage-iconInfo email" >
+              <i class="fas fa-envelope envelope contactPage-icon"></i>
+              <p class="contactPage-icon-text">gracepinkie90@gmail.com</p>
+            </div>
+            <div class="contactPage-iconInfo address">
+              <i class="fas fa-map-marker-alt contactPage-icon location"></i>
+              <p class="contactPage-icon-text">Durban, South Africa</p>
+            </div>
+            </div>
+          </div>
+        </form>
+      
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-links">
+          <a href="https://github.com/mikaylab12" target="_blank" class="footer-link"><i class="fab fa- 
+             github"></i></a>
+          <a href="https://codepen.io/mikaylab12" target="_blank" class="footer-link"><i class="fab fa- 
+             codepen"></i></a>
+          <a href="https://www.instagram.com/mikaylabeelders/" target="_blank" class="footer-link"><i 
+             class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+          <i class="far fa-copyright" >Made by Mikayla Beelders</i>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function toggleSideNavbar() {
+        document
+          .getElementsByClassName("sideNavbar-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 2,
+          margin: 30,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          responsive: {
+            0: {
+              items: 1,
+              stagePadding: 0,
+              margin: 10,
+            },
+            500: {
+              items: 1,
+              margin: 50,
+              stagePadding: 10,
+            },
+            800: {
+              items: 2,
+              margin: 50,
+              stagePadding: 100,
+            },
+          },
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
